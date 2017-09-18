@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BD Online Radio</string>
+    <string name="description_format">%1$s\n\n%2$s</string>
+
+    <!--Admob app unit id -->
+    <string name="banner_ad_unit_id">ca-app-pub-5744533342632760/1684726822</string>
+    <string name="interstitial_ad_unit_id">ca-app-pub-5744533342632760/3161460020</string>
+
+    <!--<string name="banner_ad_unit_id">Test</string>
+    <string name="interstitial_ad_unit_id">Test</string>-->
+
+    <!-- Sharing content -->
+    <string name="share_to">Share to</string>
+    <string name="subject">Hi, I just Try BDOnlineRadio</string>
+    <string name="message">You can download BDOnlineRadio for Android at</string>
+    <string name="intro_message">Hi, I just try BDOnlineRadio</string>
+    <string name="extra_message">. You can also try this BDOnlineRadio by downloading </string>
+    <string name="here">here:</string>
+
+    <!-- Google Play url. Change your.package.name with your own package name. -->
+    <string name="google_play_url">https://play.google.com/store/apps/details?id=me.saidur.bdonlineradio</string>
+    <!-- Google Play url. Change your.package.name with your own package name. -->
+    <string name="google_play_url_product_list">http://play.google.com/store/search?q=pub:Saidur</string>
+
+    <string name="action_home">Home</string>
+    <string name="action_rate">Rate us</string>
+    <string name="action_moreapps">More apps</string>
+    <string name="action_share">Share</string>
+    <string name="action_about">About</string>
+
+</resources>

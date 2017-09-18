@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "109338361078",
+    "firebase_url": "https://bd-online-radio.firebaseio.com",
+    "project_id": "bd-online-radio",
+    "storage_bucket": "bd-online-radio.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:109338361078:android:e8c29f58f2404b94",
+        "android_client_info": {
+          "package_name": "me.saidur.bdonlineradio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "109338361078-8qjdq59j398ijh4hneihv7cteijf8dq2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBrllWvjZ1oxuiN_hYMEOg7HkCQei_rZ4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

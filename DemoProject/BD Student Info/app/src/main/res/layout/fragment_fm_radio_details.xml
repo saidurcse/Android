@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:ignore="RtlHardcoded">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/name"
+            style="@style/TextAppearance.AppCompat.Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:layout_marginTop="@dimen/rage_comic_name_margin_top"
+            android:text="Freddie Mercury" />
+
+        <ImageView
+            android:id="@+id/comic_image"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/rage_comic_image_size"
+            android:layout_marginBottom="@dimen/rage_comic_image_margin_vertical"
+            android:layout_marginTop="@dimen/rage_comic_image_margin_vertical"
+            android:adjustViewBounds="true"
+            android:contentDescription="@null"
+            android:scaleType="centerCrop"
+            android:src="@drawable/radio_today" />
+
+        <!--<TextView
+            android:id="@+id/description"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/rage_comic_description_margin_bottom"
+            android:layout_marginLeft="@dimen/rage_comic_description_margin_left"
+            android:layout_marginRight="@dimen/rage_comic_description_margin_right"
+            android:layout_marginTop="0dp"
+            android:autoLink="web"
+            android:text="Freddie Mercury Rage Pose is a rage comic character made from a photo of deceased British musician and former lead vocalist for the rock band Queen Freddie Mercury. The image is typically used to indicate that an extraordinary feat has been accomplished, similar to the F!@# Yea illustration."/>-->
+
+        <!--<LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:orientation="horizontal">
+
+          <TextView
+              android:text="Volume"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:id="@+id/volumentext"
+              android:layout_gravity="left"
+              android:layout_marginLeft="20dip"/>
+
+          <ImageView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              app:srcCompat="@android:drawable/ic_lock_silent_mode"
+              android:id="@+id/volumeicon"
+              android:gravity="right"
+              android:textAlignment="gravity"
+              android:layout_marginRight="0dip"/>
+
+        </LinearLayout>-->
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/RelativeLayout01"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/vollumetext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="Volume" />
+
+            <ImageView
+                android:id="@+id/volumeicon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                app:srcCompat="@drawable/ic_volume" />
+
+        </RelativeLayout>
+
+        <SeekBar
+            android:id="@+id/seekBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <ProgressBar
+            android:id="@+id/progressBar1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:layout_marginTop="10dip"
+            android:indeterminateDrawable="@android:drawable/progress_indeterminate_horizontal"
+            android:indeterminateOnly="false"
+            android:maxHeight="20dip"
+            android:minHeight="20dip"
+            android:progressDrawable="@android:drawable/progress_horizontal"></ProgressBar>
+
+        <TextView
+            android:id="@+id/validationtext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/progressBar1"
+            android:layout_marginTop="10dip"
+            android:gravity="center"
+            android:text="" />
+
+<!--        <TextView
+            android:id="@+id/validationtextoff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/progressBar1"
+            android:layout_marginTop="10dip"
+            android:gravity="center"
+            android:text="" />-->
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dip"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/buttonPlay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Play"></Button>
+
+            <Button
+                android:id="@+id/buttonStopPlay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Stop"></Button>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/callLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dip"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/call"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Call"></Button>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

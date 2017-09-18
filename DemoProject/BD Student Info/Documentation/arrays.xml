@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <array name="images">
+    <item>@drawable/radio_today</item>
+    <item>@drawable/radio_betar</item>
+    <item>@drawable/radio_betar</item>
+    <item>@drawable/radio_dhakafm</item>
+
+    <item>@drawable/radio_abc</item>
+    <item>@drawable/radio_wadio</item>
+    <item>@drawable/radio_torongo</item>
+    <item>@drawable/radio_color</item>
+
+    <item>@drawable/radio_edoctor</item>
+    <item>@drawable/radio_lemon24</item>
+    <item>@drawable/radio_2_fun</item>
+    <item>@drawable/radio_amar</item>
+
+    <item>@drawable/radio_boss24</item>
+    <item>@drawable/radio_desh</item>
+    <item>@drawable/radio_goongoon</item>
+    <item>@drawable/radio_kotha</item>
+
+
+    <item>@drawable/radio_mahananda</item>
+    <item>@drawable/radio_mainamati</item>
+    <item>@drawable/radio_padma</item>
+    <item>@drawable/radio_shadhin</item>
+
+    <item>@drawable/radio_shongi</item>
+    <item>@drawable/radio_shur</item>
+    <item>@drawable/radio_swadesh</item>
+    <item>@drawable/radio_voice24</item>
+  </array>
+
+  <string-array name="names">
+    <item>Radio Today FM 89.6</item>
+    <item>BD Betar FM</item>
+    <item>BD Betar AM</item>
+    <item>Dhaka FM 90.4</item>
+
+    <item>ABC Radio FM 89.2</item>
+    <item>Bangla Wadio</item>
+    <item>Radio Torongo</item>
+    <item>Colours FM 101.6 FM</item>
+
+    <item>eDoctor Radio</item>
+    <!--<item>Jessore 24 Radio&#45;&#45;</item>-->
+    <item>Lemon24</item>
+    <!--<item>RADIO 2FUN Bangla Classical&#45;&#45;</item>-->
+    <!--<item>Radio foorti&#45;&#45;</item>-->
+    <item>RADIO 2FUN DJ Station</item>
+    <item>Radio Aamar 88.4 FM</item>
+
+    <!--<item>Radio Bhumi 92.8 FM&#45;&#45;</item>-->
+    <!--<item>Radio Bihongo&#45;&#45;</item>-->
+    <item>Radio Boss 24</item>
+    <item>Radio Deshi FM</item>
+   <!-- <item>Radio Dreamz&#45;&#45;</item>-->
+    <item>Radio GoonGoon</item>
+    <!--<item>Radio Jottil&#45;&#45;</item>-->
+    <item>Radio Kotha</item>
+
+    <item>Radio Mahananda 98.8 FM</item>
+    <item>Radio Mainamati</item>
+    <!--<item>Radio Munna&#45;&#45;</item>-->
+    <item>Radio Padma 99.2 FM</item>
+    <item>Radio Shadhin 92.4 FM</item>
+
+    <item>Radio Shongi</item>
+    <item>Radio Shur</item>
+    <item>Radio Swadesh</item>
+    <!--<item>Radio Tolpar&#45;&#45;</item>-->
+    <item>RadioVoice24 90.0 FM</item>
+    <item></item>
+
+  </string-array>
+
+  <string-array name="descriptions">
+    <item>a</item>
+    <item>b</item>
+    <item>c</item>
+    <item>d</item>
+
+    <item>e</item>
+    <item>f</item>
+    <item>g</item>
+    <item>h</item>
+
+    <item>i</item>
+    <item>j</item>
+    <item>k</item>
+    <item>h</item>
+
+    <item>a</item>
+    <item>a</item>
+    <item>a</item>
+    <item>a</item>
+
+    <item>a</item>
+    <item>a</item>
+    <item>a</item>
+    <item>a</item>
+
+    <item>a</item>
+    <item>a</item>
+    <item>a</item>
+    <item>a</item>    
+  </string-array>
+
+  <string-array name="urls">
+    <item>"http://162.254.149.187:9302"</item>
+    <item>"http://192.235.87.105:13748"</item>
+    <item>"http://192.235.87.105:14322"</item>
+    <item>"http://118.179.219.244:8000"</item>
+
+    <item>"http://live.abcradiobd.fm:8282"</item>
+    <item>"http://162.254.150.34:8201"</item>
+    <item>"http://134.213.164.215/6xhmhgk7gumtv"</item>
+    <item>"http://50.22.212.196:8156"</item>
+
+    <item>"http://184.154.43.106:8008"</item>
+    <!--<item>"http://174.141.229.7:9998"</item>-->
+    <item>"http://office.mcc.com.bd:8000"</item>
+    <!--<item>"http://216.107.153.51:8000"</item>-->
+    <!--<item>"http://121.200.62.53:1021"</item>-->
+    <item>"http://radio.ethii.com:8000"</item>
+    <item>"http://202.126.122.43:9898"</item>
+
+    <!--<item>"http://shaincast.caster.fm:21340"</item>-->
+    <!--<item>"http://162.254.150.34:7005"</item>-->
+    <item>"http://streams.museter.com:8311"</item>
+    <item>"http://37.187.79.93:8016/live"</item>
+    <!--<item>"http://s5.voscast.com:8320"</item>-->
+    <item>"http://stream.dreamhousebd.com:8888"</item>
+    <!--<item>"http://listen.radiojottil.com:8348"</item>-->
+    <item>"http://188.165.201.120:8016/stream"</item>
+
+    <item>"http://cast.nawabhost.com:8010"</item>
+    <item>"http://162.254.150.34:8207"</item>
+    <!--<item>"http://188.165.201.120:8008/stream"</item>-->
+    <item>"http://sirius.shoutca.st:9055/padma.mp3"</item>
+    <item>"http://89.163.128.81:8240"</item>
+
+    <item>"http://162.254.150.34:7031"</item>
+    <item>"http://192.235.87.105:15258"</item>
+    <item>"http://radioswadesh.com:8002"</item>
+    <!--<item>"http://173.192.105.231:6129/stream"</item>-->
+    <item>"http://server.realitsolution.com:5128"</item>
+    <item></item>
+  </string-array>
+</resources>

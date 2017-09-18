@@ -1,0 +1,27 @@
+How to find Radio station:
+
+1) View Source => Audio Control => Auto Play => source 
+(<source src="http://162.254.149.187:9302/;stream/1/;stream/1" type="audio/ogg">)
+http://www.liveonlineradio.net/bangla/abc-radio.htm
+
+2) Inspect element => search  div id="wb_player" then div id = "mediaplayer_wrapper"
+   you can see text/javascript click here, right click text/javascript and edit as html
+   http://www.surfmusic.de/country/bangladesh.html
+   
+
+The website I followed for list of Url:
+
+http://www.surfmusic.de/country/bangladesh.html
+http://www.liveonlineradio.net/bangla/abc-radio.htm
+
+
+Color of ic_launcher:
+#ff6127
+
+
+
+
+    
+
+
+

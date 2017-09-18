@@ -1,0 +1,13 @@
+1) http://www.surfmusic.de/country/bangladesh.html
+
+  Procedure: Right click -> Inspect Element -> search by using "wb_player" -> click inside ->
+             <script type="text/javascript"> -> Edit as HTML ->http://live.abcradiobd.fm:8282/
+			 -> this is desired url
+
+2) http://www.liveonlineradio.net/bangla/abc-radio.htm 
+
+  Procedure: Right click -> Inspect Element -> search by using "video controls" -> click inside ->
+			 <source src="http://st2.zenorad.io:14424" type="audio/mpeg"> -> Edit as HTML
+			 -> this is desired url
+			 
+3) Color: ff6127			 
